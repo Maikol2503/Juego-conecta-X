@@ -7,7 +7,7 @@ var fichasRestantes1 = 0;
 var fichasRestantes2 = 0;
 var partidaFinalizada = false; 
 
-//Variables de interfaz
+//Variables de interfAz
 var contenedor1 = $("#fichas1");
 var contenedor2 = $("#fichas2");
 var tablero = $("#tablero");
