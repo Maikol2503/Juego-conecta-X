@@ -111,7 +111,6 @@ function crearTablero(){
 		marcador2.html(m2);
 	}
 
-
 }
 
 //Función para registrar las pulsaciones de las teclas
