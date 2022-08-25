@@ -102,10 +102,12 @@ function crearTablero(){
 	}
 
 	//obtengo los datos del locaslStorage
-	m1 = localStorage.getItem("c1");
-	m2 = localStorage.getItem("c2");  
-	marcador1.html(m1);
-	marcador2.html(m2);
+	if(localStorage.getItem("c1")){
+		m1 = localStorage.getItem("c1");
+	} 
+	if(localStorage.getItem("c2")){
+		m2 = localStorage.getItem("c2");
+	}
 
 
 }
